@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fefae0;
+}
+
+h1 {
+  color: #333;
+}
+
+.opciones {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.opciones img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.opciones img:hover {
+  border-color: #888;
+}
+
+#resultado {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#ayuda {
+  font-size: 20px;
+  color: #555;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffb703;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #faa307;
+}

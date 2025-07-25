@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Libro interactivo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>¿Qué animal hace este sonido?</h1>
+  <button onclick="reproducirSonido()">Escuchar sonido</button>
+
+  <div class="opciones">
+    <img src="img/vaca.avif"  onclick="verificarRespuesta('vaca')">
+    <img src="img/perro.jpg"  onclick="verificarRespuesta('perro')">
+    <img src="img/gallina.jpg"  onclick="verificarRespuesta('gallina')">
+  </div>
+
+  <div id="resultado"></div>
+  <div id="ayuda"></div>
+
+  <audio id="sonidoAnimal" src="audio/dog_sound.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
